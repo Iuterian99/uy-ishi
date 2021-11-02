@@ -1,0 +1,20 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px;
+}
+
+.list{
+  display: flex;
+  list-style-type: none;
+}
+
+.list-item + .list-item{
+  margin-left: 40px;
+}
+
+.header__link{
+color: #1F1534;
+text-decoration: none;
+}
